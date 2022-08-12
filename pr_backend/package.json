@@ -1,0 +1,27 @@
+{
+  "name": "pr_backend",
+  "version": "0.0.1",
+  "description": "Backend code for the payment reminder system.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Karan Batavia",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.1",
+    "nodemailer": "^6.7.8",
+    "pg": "^8.7.3",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  }
+}
